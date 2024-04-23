@@ -851,6 +851,7 @@ async def complete_chat_request(request_body):
     else:
         response, apim_request_id = await send_chat_request(request_body)
         history_metadata = request_body.get("history_metadata", {})
+        logging.debug("KYLE KLSDJKFLJKSD")
         return format_non_streaming_response(response, history_metadata, apim_request_id)
 
 

@@ -2,12 +2,14 @@
     width: 86px;
     height: 32px;
     border-radius: 4px;
-    background: radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%);
+    /* background: radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%); */
+    background: #1B1463;
     padding: 5px 12px;
   }
   
   .shareButtonRoot:hover {
-    background: linear-gradient(135deg, #0F6CBD 0%, #2D87C3 51.04%, #8DDDD8 100%);
+    /* background: linear-gradient(135deg, #0F6CBD 0%, #2D87C3 51.04%, #8DDDD8 100%); */
+    background: #FF5100;
   }
   
   .shareButtonRoot span {
